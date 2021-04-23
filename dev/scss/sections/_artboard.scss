@@ -1,0 +1,13 @@
+#demo{
+    display: grid;
+    grid-template-columns: auto 90% auto;
+    grid-template-areas: ". demo .";
+    >div{
+        // height: 80vh;
+        grid-area: demo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
