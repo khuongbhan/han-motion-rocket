@@ -410,10 +410,12 @@ textarea {
 ============= */
 #demo {
   display: grid;
-  grid-template-columns: auto 90% auto;
+  grid-template-columns: auto 60% auto;
   grid-template-areas: ". demo .";
 }
 #demo > div {
+  height: 60vh;
+  width: 60vw;
   grid-area: demo;
   display: flex;
   justify-content: center;
