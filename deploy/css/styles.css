@@ -408,16 +408,32 @@ textarea {
 /* =============
     Footer
 ============= */
-#demo {
+#svg-container {
   display: grid;
-  grid-template-columns: auto 60% auto;
-  grid-template-areas: ". demo .";
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". svg-container .";
+  height: 100vh;
 }
-#demo > div {
-  height: 60vh;
-  width: 60vw;
-  grid-area: demo;
+@media (min-width: 768px) {
+  #svg-container {
+    grid-template-columns: auto 70% auto;
+  }
+}
+@media (min-width: 992px) {
+  #svg-container {
+    grid-template-columns: auto 60% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #svg-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#svg-container > div {
+  grid-area: svg-container;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+#svg-container > div svg {
+  width: 100%;
 }

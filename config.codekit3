@@ -38,12 +38,132 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/artboard.kit": {
+	"/deploy/svg-container.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/svg-container.html",
+		"oF": 0
+		},
+	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/artboard.html",
+		"oAP": "/deploy/svg-container.html",
+		"oF": 2
+		},
+	"/dev/content/svg/cloud.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/cloud.html",
+		"oF": 0
+		},
+	"/dev/content/svg/computer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/computer.html",
+		"oF": 0
+		},
+	"/dev/content/svg/desk.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/desk.html",
+		"oF": 0
+		},
+	"/dev/content/svg/fan.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/fan.html",
+		"oF": 0
+		},
+	"/dev/content/svg/green-vase.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/green-vase.html",
+		"oF": 0
+		},
+	"/dev/content/svg/hanging-lamp.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/hanging-lamp.html",
+		"oF": 0
+		},
+	"/dev/content/svg/hanging-plant.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/hanging-plant.html",
+		"oF": 0
+		},
+	"/dev/content/svg/light-off-overlay.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/light-off-overlay.html",
+		"oF": 0
+		},
+	"/dev/content/svg/pink-vase.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/pink-vase.html",
+		"oF": 0
+		},
+	"/dev/content/svg/rocket.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/rocket.html",
+		"oF": 0
+		},
+	"/dev/content/svg/space.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/space.html",
+		"oF": 0
+		},
+	"/dev/content/svg/top-layer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/top-layer.html",
+		"oF": 0
+		},
+	"/dev/content/svg/window-outside.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/window-outside.html",
+		"oF": 0
+		},
+	"/dev/content/svg/window.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/window.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -211,7 +331,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_artboard.scss": {
+	"/dev/scss/sections/_svg-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -219,7 +339,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_artboard.css",
+		"oAP": "/dev/scss/sections/_svg-container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -242,39 +362,6 @@
 		"oA": 2,
 		"oAP": "/node_modules",
 		"oF": 0
-		},
-	"/node_modules/gsap/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
