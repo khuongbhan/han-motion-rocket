@@ -1,9 +1,16 @@
 import { gsap } from "gsap";
-import { lightsOnTL } from "./lightOn.js"
+import { GSDevTools } from "gsap/GSDevTools";
+import { lightsOnTL } from "./lightOn"
+import { officeTL } from "./officeAnim"
+// import { plantsTL } from "./plants"
 
+gsap.registerPlugin(GSDevTools);
 
 let mainTL = gsap.timeline();
 
-mainTL.add(lightsOnTL);
+mainTL.add(lightsOnTL)
+      .add(officeTL);
 
 
+
+GSDevTools.create();
