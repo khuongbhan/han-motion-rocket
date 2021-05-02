@@ -1,6 +1,9 @@
-// import { gsap } from "gsap";
-// import $ from "jquery";
+import { gsap } from "gsap";
+import { lightsOnTL } from "./lightOn.js"
 
-// gsap.to("#rocket", {scale: 3, alpha:0, duration: 2});
+
+let mainTL = gsap.timeline();
+
+mainTL.add(lightsOnTL);
 
 
