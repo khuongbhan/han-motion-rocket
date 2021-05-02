@@ -3,7 +3,7 @@
     grid-template-columns: auto 80% auto;
     grid-template-areas: ". svg-container .";
     height: 100vh;
-    
+
     @include md{
 		grid-template-columns: auto 70% auto;
 	}
@@ -12,12 +12,12 @@
 		grid-template-columns: auto 60% auto;
 	}
 
-    @include xl {
-        grid-template-columns: auto 1200px auto;
-    }
+    // @include xl {
+    //     grid-template-columns: auto 1200px auto;
+    // }
 
     >div{
-        
+        // border: 1px solid red;
         grid-area: svg-container;
         display: flex;
         // justify-content: center;

@@ -424,11 +424,6 @@ textarea {
     grid-template-columns: auto 60% auto;
   }
 }
-@media (min-width: 1200px) {
-  #svg-container {
-    grid-template-columns: auto 1200px auto;
-  }
-}
 #svg-container > div {
   grid-area: svg-container;
   display: flex;
