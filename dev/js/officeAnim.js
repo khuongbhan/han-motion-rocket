@@ -10,6 +10,9 @@ gsap.set("#pink-vase-leaf3", {transformOrigin: "bottom"})
 gsap.set("#pink-vase-leaf4", {transformOrigin: "bottom"})
 gsap.set("#pink-vase-leaf5", {transformOrigin: "bottom"})
 gsap.set("#pink-vase-leaf6", {transformOrigin: "bottom"})
+gsap.set("#hanging-plant", {transformOrigin: "top"})
+
+// fan rotating and leaves flying
 
 officeTL.to("#fan-wing", {rotation: 1440, duration: 5},"plantsStart")
      .to("#pink-vase-leaf1", {y:"+=3", rotation: 10, duration:2, ease: "bounceOut"},"plantsStart")
@@ -24,3 +27,15 @@ officeTL.to("#fan-wing", {rotation: 1440, duration: 5},"plantsStart")
      .to("#pink-vase-leaf5", {rotation: 2, duration:1, ease: "bounceOut"},"-=2.2")
      .to("#pink-vase-leaf6", {y:"+=3",rotation: 6, duration:1.5, ease: "bounceOut"},"-=3.8")
      .to("#pink-vase-leaf6", {rotation: 0, duration:1, ease: "bounceOut"},"-=2.3")
+
+// hanging leaf flying
+
+     .to("#hanging-plant", {rotation:-3, duration:1, ease: "bounceOut"}, "plantsStart")
+     .to("#hanging-plant", {rotation:3, duration:1, ease: "bounceOut"}, "-=4")
+     .to("#hanging-plant", {rotation:-1, duration:.7, ease: "bounceOut"}, "-=3")
+     .to("#hanging-plant", {rotation:0, duration:.5, ease: "bounceOut"}, "-=2.3")
+
+// desktop turning on 
+      
+     .to("#computer-light-on", {fill:"#6AC89E",duration: .5},"-=2")
+     .to("#computer-screen-off", {fill:"#94CAD3",duration: .75},"-=1.5")
