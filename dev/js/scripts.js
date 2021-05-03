@@ -3,6 +3,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { lightsOnTL } from "./lightOn"
 import { officeTL } from "./officeAnim"
 import { rocketAnimTL } from "./rocketAnim"
+import { liftOffTL } from "./liftOff"
 
 // import { plantsTL } from "./plants"
 
@@ -12,7 +13,8 @@ let mainTL = gsap.timeline();
 
 mainTL.add(lightsOnTL)
       .add(officeTL)
-      .add(rocketAnimTL);
+      .add(rocketAnimTL)
+      .add(liftOffTL)
 
 
 

@@ -29,7 +29,7 @@ officeTL.to("#fan-wing", {rotation: 2880, duration: 5},"plantsStart")
      .to("#pink-vase-leaf6", {rotation: 0, duration:1, ease: "bounceOut"},"-=2.3")
 
 // hanging leaf flying
-
+// .to("#hanging-plant", {rotation:3, yoyo:true, repeat:3, ease: "none"}, "plantsStart")
      .to("#hanging-plant", {rotation:-3, duration:1, ease: "bounceOut"}, "plantsStart")
      .to("#hanging-plant", {rotation:3, duration:1, ease: "bounceOut"}, "-=4")
      .to("#hanging-plant", {rotation:-1, duration:.7, ease: "bounceOut"}, "-=3")
