@@ -182,12 +182,23 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/liftOff.js": {
+	"/dev/js/flightPath.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
+		"oAP": "/dev/js/flightPath-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/liftOff.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "/dev/js/liftOff-min.js",
 		"oF": 0,
 		"sC": 3,
