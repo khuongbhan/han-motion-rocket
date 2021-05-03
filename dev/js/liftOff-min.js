@@ -1,0 +1,1 @@
+import{gsap}from"gsap";export let liftOffTL=gsap.timeline();gsap.set("#triangle-fume",{opacity:0,scale:0,transformOrigin:"center top"});

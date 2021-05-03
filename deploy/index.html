@@ -95,9 +95,9 @@
                      </g>
                    </g>
          
-                 <path id="wall" fill="#FBECDC" d="M0 0h1024v1024H0z" />
+                 <path id="wall" fill="#FBECDC" d="M0 0h1024v1024H0z" class="room"/>
                  
-                 <g id="desk" transform="translate(0 865)">
+                 <g id="desk" transform="translate(0 865)" class="room">
                      <path id="desk-full" fill="#BD7D41" d="M0 159h1024V0H0z" />
                      <path id="desk-shadow-1" fill="#995725" d="M0 143h1024v-27H0z" />
                      <path id="desk-shadow-2" fill="#784820" d="M0 159h1024v-16H0z" />
@@ -107,7 +107,7 @@
                        id="desk-highlight-top" fill="#D9985F" />
                    </g>
          
-                 <g id="window" transform="translate(372.13 179.65)">
+                 <g id="window" transform="translate(372.13 179.65)" class="room">
                      <path
                        d="M-.13 543.35h351V181.009C350.87 45.129 247.422.35 177.428.35 107.434.35.384 51.82.384 175.346c0 123.526-.514 368.005-.514 368.005"
                        id="window-frame" fill="#E9CDB4" />
@@ -116,7 +116,7 @@
                        id="window-green" fill="#B6E1E8" />
                    </g>
                  
-                 <g id="computer" transform="translate(126 547)">
+                 <g id="computer" transform="translate(126 547)" class="room">
                      <path
                        d="M422 15.446v267.108c0 8.533-6.912 15.446-15.445 15.446H15.445C6.914 298 0 291.087 0 282.554V15.446C0 6.913 6.913 0 15.446 0h391.11C415.087 0 422 6.913 422 15.446"
                        id="computer-full-frame" fill="#E0E0E0" />
@@ -146,7 +146,7 @@
                      <circle id="computer-light-on" fill="#BCBCBC" cx="381" cy="273" r="5" />
                    </g>
                  
-                 <g id="cloud" transform="translate(134 555)">
+                 <g id="cloud" transform="translate(134 555)" class="room">
                      <mask id="mask-5" fill="#fff">
                        <use xlink:href="#path-4" />
                      </mask>
@@ -293,7 +293,7 @@
                      </g>
                    </g>
          
-                 <g id="window-outside" transform="translate(407.478 240.388)" fill="#FBF4EC">
+                 <g id="window-outside" transform="translate(407.478 240.388)" fill="#FBF4EC" class="room">
                      <path
                        d="M107.522 32.112c-8.574 1.064-9.437 1.926-10.5 10.5-1.064-8.574-1.926-9.436-10.5-10.5 8.574-1.063 9.436-1.926 10.5-10.5 1.063 8.574 1.926 9.437 10.5 10.5"
                        id="window-star-1" />
@@ -329,7 +329,7 @@
                        id="window-star-11" />
                    </g>
          
-                 <g id="pink-vase" transform="translate(743.35 301.982)">
+                 <g id="pink-vase" transform="translate(743.35 301.982)" class="room">
                      <g id="pink-vase-leaf1" transform="translate(-.35 234.018)">
                        <path
                          d="M2.372 0S-5.42 44.4 7.243 79.148c12.664 34.748 29.753 61.38 49.947 76.539 2.394-35.32-8.058-64.956-12.928-79.434C39.39 61.774 26.727 38.609 22.83 29.922 18.933 21.235 12.114 6.757 2.372 0"
@@ -388,7 +388,7 @@
                      </g>
                    </g>
          
-                 <g id="green-vase" transform="translate(881.82 783.901)">
+                 <g id="green-vase" transform="translate(881.82 783.901)" class="room">
                      <path
                        d="M68.18 123.639c0 9.595-1.193 13.193-14.315 13.193H10.917S.18 139.232.18 129.636V44.477c0-11.994 10.14-35.383 26.843-35.383L26.426.1h15.509v8.396s25.052 7.196 25.052 32.384c0 6.597.084 14.766.203 23.389.346 24.3.99 52.294.99 59.37"
                        id="green-vase-full" fill="#C7DBD2" />
@@ -397,7 +397,7 @@
                        id="green-vase-bottom" fill="#305D5C" />
                    </g>
          
-                 <g id="fan" transform="translate(572.315 753.67)">
+                 <g id="fan" transform="translate(572.315 753.67)" class="room">
                      <g id="fan-wing" transform="translate(34.685 9.33)" fill="#F9FBFF">
                        <path
                          d="M41.339.108S24.399 3.996 30.377 14.69c5.98 10.694 11.958 16.527 14.948 30.138.996 5.834 3.986 1.945 5.979-.972 1.993-2.916 15.943-20.416 10.961-33.055C57.282-1.837 46.321.108 41.339.108"
@@ -449,12 +449,12 @@
                        id="window-frame-over" fill="#E9CDB4" />
                    </g> -->
                  
-                   <g id="top-layer">
+                   <g id="top-layer" class="room">
                      <path d="M1024 0v220l-384.12-.001c-28.968-18.46-62.068-26.12-90.004-26.12-28.957 0-63.028 7.713-92.238 26.117L0 220V0h1024z" id="upper-wall-over" fill="#FBECDC"/>
                      <path d="M549.478 180c42.76 0 98.009 16.794 134.522 60.998h-19.034c-33.404-33.268-78.687-46.393-115.17-46.393-37.849 0-84.43 13.241-117.495 46.394L414 240.995C451.555 198.818 507.258 180 549.478 180z" id="window-frame-over" fill="#E9CDB4"/>
                    </g>
          
-                 <g id="hanging-plant" transform="translate(22.242)">
+                 <g id="hanging-plant" transform="translate(22.242)" class="room">
                      <path d="M150.758 333.432V338h-18v-4.568c0-4.521 3.24-8.28 7.5-8.998V0h3v324.434c4.26.717 7.5 4.477 7.5 8.998"
                        id="haging-plant-rope" fill="#1A1915" />
                      <g id="hanging-leaf-4" transform="translate(116.758 437)">
@@ -506,7 +506,7 @@
                      </g>
                    </g>
                  
-                 <g id="hanging-lamp" transform="translate(754.577)">
+                 <g id="hanging-lamp" transform="translate(754.577)" class="room">
                      <path d="M68.923 291c22.34 0 40.45 17.886 40.45 39.95H28.474l.005-.661C28.837 308.529 46.807 291 68.923 291z"
                        id="lamp-bulb-on" fill="#F8D570" transform="rotate(-180 68.923 311)" />
                      <path d="M68.923 291c22.34 0 40.45 17.886 40.45 39.95H28.474l.005-.661C28.837 308.529 46.807 291 68.923 291z"
@@ -520,8 +520,10 @@
          
                  <path id="light-off-overlay" fill-opacity=".393" fill="#000" d="M0 0h1024v1024H0z" />
          
-                 <path d="M337 640.5c.337-99.667.337-163.167 0-190.5-2-162 190.5-62.5 245.5-139C619.167 260 604 126.5 537-89.5" id="flight-path" stroke="none"/>
+                 <!-- <path d="M337 640.5c.337-99.667.337-163.167 0-190.5-2-162 190.5-62.5 245.5-139C619.167 260 604 126.5 537-89.5" id="flight-path" stroke="none"/> -->
          
+                 <path d="M337 641V433.5c0-121.5 172-30.5 220-122s52-139 0-215S424.5 25 372-77.5s-204.5-73-250-212.5 47.5-243 156-225 168 204.5 287 204.5 243-49.5 271-97 20-299-234-288-374.5 168.5-471 99S-11-797 32-857s371.5-114 457.5 0 65 342 176.5 342 256-12 275-125.5c12.667-75.667-12.833-164.333-76.5-266" id="flight-path" stroke="#979797"/>
+                 
                </g>
              </svg>
            </div>
