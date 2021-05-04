@@ -10,17 +10,17 @@ import { flightPathTL } from "./flightPath"
 
 gsap.registerPlugin(GSDevTools);
 
-let mainTL = gsap.timeline({paused:true});
+let mainTL = gsap.timeline();
 
 mainTL.add(lightsOnTL)
       .add(officeTL)
       .add(rocketAnimTL)
-    //   .add(liftOffTL)
-      .addLabel("marker")
+      // .add(liftOffTL)
+      // .addLabel("marker")
       .add(flightPathTL);
 
-      mainTL.play("marker");
+      // mainTL.play("marker");
 
 
 
-// GSDevTools.create();
+GSDevTools.create();
