@@ -10,14 +10,14 @@ flightPathTL.to("#rocket",{duration:0.15, rotation:-10,ease:"none"})
 .to("#rocket",{duration:0.15, rotation:10, yoyo:true, repeat:10,ease:"none"})
 .to("#rocket",{duration:0.15, rotation:0,ease:"none", onComplete:controlFlames})
 .to("#rocket", {
-    duration: 12,
+    duration: 13.9,
     motionPath: {
         path: "#flight-path",
         align:"#flight-path",
         alignOrigin: [0.5, 0.5],
         autoRotate: 90
     },
-    ease: "power3.in",
+    ease: "none",
     scale:1
 },"upAndAway")
 
@@ -28,7 +28,7 @@ flightPathTL.to("#rocket",{duration:0.15, rotation:-10,ease:"none"})
 .to("#flame-out",{opacity: 1, scale: 1.5,x:"-=2",y:"-=2", duration: .2},"upAndAway")
 .to("#flame-in",{scale: 1.5,duration: .2,x:"-=2" },"upAndAway")
 .to("#middle",{duration:5, y:"+=500", ease: "power3.in"},'upAndAway')
-.to(".room",{duration:8,y:"+=1024", ease: "power3.in"},'upAndAway')
+.to(".room",{duration:4,y:"+=1024", ease: "power3.in"},'upAndAway')
 // .to(".window-elements",{duration:7,scale: 10, ease: "power3.in"},'upAndAway');
 // .to("#flight-path",{duration:6,y:"+=1024", ease: "power3.in"},'upAndAway');
 // .from("#space",{duration:5,alpha:0, ease: "power3.in"},'upAndAway');
