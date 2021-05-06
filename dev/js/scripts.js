@@ -6,22 +6,24 @@ import { rocketAnimTL } from "./rocketAnim"
 import { flightPathTL } from "./flightPath"
 import { moonZoomInTL } from "./moonZoom"
 import { landingTL } from "./landing"
+import { endingTL } from "./ending"
 
 
 
 gsap.registerPlugin(GSDevTools);
 
-let mainTL = gsap.timeline();
+let mainTL = gsap.timeline({repeat:1});
 
 mainTL.add(lightsOnTL)
       .add(officeTL)
       .add(rocketAnimTL)
       // .add(liftOffTL)
-      .addLabel("marker")
+      // .addLabel("marker")
       .add(flightPathTL,"zoomFlight")
       .add(moonZoomInTL,"zoomFlight")
       .add(landingTL)
-      mainTL.play("marker");
+      .add(endingTL)
+      // mainTL.play("marker");
 
 
 
