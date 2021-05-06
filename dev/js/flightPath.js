@@ -23,8 +23,8 @@ flightPathTL.to("#rocket",{duration:0.15, rotation:-10,ease:"none"})
 
 // .to("#rocket",{duration:5, y:"-=800",scale: .5, ease: "power3.in"},"upAndAway")
 
-.from("#bottom-fume",{duration:3, y:"+=150", scale:.75, alpha:0.5, ease: "power3.in"},'upAndAway')
-.from("#top-fume",{duration:3.5, y:"+=150", scale:.75, alpha:0.5, ease: "power3.in"},'upAndAway')
+.from("#bottom-fume",{duration:.6, y:"+=150", scale:.75, alpha:0.5, ease: "power3.in"},'upAndAway')
+.from("#top-fume",{duration:.75, y:"+=150", scale:.75, alpha:0.5, ease: "power3.in"},'upAndAway')
 .to("#flame-out",{opacity: 1, scale: 1.5,x:"-=2",y:"-=2", duration: .2},"upAndAway")
 .to("#flame-in",{scale: 1.5,duration: .2,x:"-=2" },"upAndAway")
 .to("#middle",{duration:5, y:"+=500", ease: "power3.in"},'upAndAway')
@@ -35,8 +35,8 @@ flightPathTL.to("#rocket",{duration:0.15, rotation:-10,ease:"none"})
 
 export let flamesTL = gsap.timeline({paused:true});
 
-flamesTL.to("#flame-in",{duration:0.25, scaleY:.25,yoyo:true},"flames")
-.to("#flame-out",{duration:0.15, scaleY:.15,yoyo:true},"flames")
+flamesTL.to("#flame-in",{duration:0.25, scaleY:1.25,yoyo:true,repeat:-1},"flames")
+.to("#flame-out",{duration:0.15, scaleY:1.5,yoyo:true,repeat:-1},"flames")
 
 function controlFlames(){
     gsap.set(".flames",{display:"block"});

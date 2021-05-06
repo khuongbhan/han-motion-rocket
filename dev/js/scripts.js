@@ -4,8 +4,9 @@ import { lightsOnTL } from "./lightOn"
 import { officeTL } from "./officeAnim"
 import { rocketAnimTL } from "./rocketAnim"
 import { flightPathTL } from "./flightPath"
-// import { liftOffTL } from "./liftOff"
-// import { flightPathTL } from "./flightPath"
+import { moonZoomInTL } from "./moonZoom"
+import { landingTL } from "./landing"
+
 
 
 gsap.registerPlugin(GSDevTools);
@@ -16,11 +17,12 @@ mainTL.add(lightsOnTL)
       .add(officeTL)
       .add(rocketAnimTL)
       // .add(liftOffTL)
-      // .addLabel("marker")
-      .add(flightPathTL);
+      .addLabel("marker")
+      .add(flightPathTL,"zoomFlight")
+      .add(moonZoomInTL,"zoomFlight")
+      .add(landingTL)
+      mainTL.play("marker");
 
-      // mainTL.play("marker");
 
 
-
-GSDevTools.create();
+// GSDevTools.create();

@@ -425,7 +425,7 @@ textarea {
 }
 @media (min-width: 992px) {
   #svg-container {
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 55% auto;
   }
 }
 #svg-container > div {
